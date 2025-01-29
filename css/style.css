@@ -61,6 +61,7 @@ p {
 .menu ul li a {
   color: black;
   font-family: "Raleway", serif;
+  font-weight: 600;
 }
 .icons {
   display: flex;
@@ -70,6 +71,7 @@ p {
 .hicon i {
   color: black;
   padding: 0px;
+  font-size: 20px;
 }
 /* header section 0 */
 /* banner section 1 */
