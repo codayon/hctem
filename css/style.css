@@ -30,33 +30,37 @@ p {
 #header {
   width: 100%;
   position: fixed;
+  padding-top: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+  background: rgba(255, 255, 255, 0.7);
 }
 .header-flex {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .logo {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  height: 50px;
 }
-.logo a picture img {
-  width: 100%;
+.logo img {
   height: 100%;
 }
 .menu {
-  /* height: 100px;
-  width: 900px; */
+  align-items: center;
 }
 .menu ul {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .menu ul li {
   padding: 0 25px;
 }
 .menu ul li a {
-  color: purple;
-  display: inline-block;
+  color: black;
+  font-family: "Raleway", serif;
 }
 .icons {
   display: flex;
@@ -64,35 +68,76 @@ p {
   justify-content: space-between;
 }
 .hicon i {
-  color: purple;
+  color: black;
   padding: 0px;
-}
-.hicon a {
-  display: inline-block;
 }
 /* header section 0 */
 /* banner section 1 */
 #banner {
-  background: url(../img/banner.png);
+  background: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .overly {
-  background: rgba(2, 71, 17, 0.7);
+  background: rgba(0, 0, 0, 0.65);
   margin: 0 auto;
-  padding: 200px;
+  padding: 290px;
 }
 .intro-flex {
   display: flex;
 }
 .intro-text {
   width: 50%;
+  color: white;
   text-align: left;
   margin-right: auto;
 }
+.intro-text h4 {
+  text-transform: uppercase;
+  font-family: "Raleway", serif;
+  letter-spacing: 3px;
+  line-height: normal;
+}
+.intro-text h1 {
+  font-size: 46px;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 550px;
+}
+.intro-text p {
+  font-family: "Inter Tight", serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 560px;
+}
+
+.intro-text h3 {
+  margin-top: 30px;
+  font-size: 14px;
+  padding: 20px;
+
+  display: inline-block;
+  color: black;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: "Raleway", serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 .intro-image {
-  /* margin-left: auto; */
-  /* width: 50%; */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+}
+.intro-image img {
+  height: 100%;
+  width: 100%;
 }
 /* banner section 0 */
+/*
+font-family: "Roboto", serif;
+font-family: "Raleway", serif; 
+*/
